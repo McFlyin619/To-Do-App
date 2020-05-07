@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 60px;
+}
+
+.create-form {
+    margin: 20px 200px 20px 200px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39); 
+    box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39);
+}
+
+#task-txt {
+    padding: 5px 10px;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+ 
+}
+
+.btn {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.list {
+    margin-top: 150px;
+    margin-right: 50px;
+
+}
+
+ul li {
+    list-style-type: none;
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 5px 5px;
+    font-size: 20px;
+    -webkit-box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39); 
+    box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39);
+}
+
+/* The alert message box */
+
+#alert {
+    height: 50px;
+}
+
+.alert1 {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin: 0 50px 15px 50px;
+    border-radius: 5px;
+    font-size: 26px;
+    -webkit-box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39); 
+    box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39);
+  }
+
+  .alert2 {
+    padding: 20px;
+    background-color: green; /* Red */
+    color: white;
+    margin: 0 50px 15px 50px;
+    border-radius: 5px;
+    font-size: 26px;
+    -webkit-box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39); 
+    box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39);
+  }
+  
+  .alert3 {
+    padding: 20px;
+    background-color: rgb(94, 221, 94); /* Red */
+    color: white;
+    margin: 0 50px 15px 50px;
+    border-radius: 5px;
+    font-size: 26px;
+    -webkit-box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39); 
+    box-shadow: -1px 5px 15px 3px rgba(0,0,0,0.39);
+  }
+  
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }

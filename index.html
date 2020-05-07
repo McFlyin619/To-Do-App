@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <title>To Do App</title>
+</head>
+<body>
+
+    <h1>
+        My to do list in jQuery
+    </h1>
+
+    <div class="create-form">
+        <input type="text" name="task" id="task-txt" placeholder="Add new task">
+        <button id="add-task" class="btn">
+            + Add
+        </button>
+    </div><!-- End create-form -->
+    <div id="alert">
+        <div class="alert1">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Please add a task!
+        </div>
+
+        <div class="alert2">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Task added!
+        </div>
+
+        <div class="alert3">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Task completed! Great job!
+        </div>
+      </div><!-- End alert-->
+
+    <div class="list">
+        <ul id="pending-list">
+            <!-- Input New Tasks -->
+        </ul>
+    </div><!-- End list -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/homework.js"></script>
+</body>
+</html>
